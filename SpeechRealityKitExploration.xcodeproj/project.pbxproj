@@ -10,9 +10,22 @@
 		509F66162E1E4BB9003BA9C9 /* SpeechRealityKitExploration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRealityKitExploration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		509F662A2E1E5255003BA9C9 /* Exceptions for "SpeechRealityKitExploration" folder in "SpeechRealityKitExploration" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 509F66152E1E4BB9003BA9C9 /* SpeechRealityKitExploration */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		509F66182E1E4BB9003BA9C9 /* SpeechRealityKitExploration */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				509F662A2E1E5255003BA9C9 /* Exceptions for "SpeechRealityKitExploration" folder in "SpeechRealityKitExploration" target */,
+			);
 			path = SpeechRealityKitExploration;
 			sourceTree = "<group>";
 		};
@@ -253,6 +266,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechRealityKitExploration/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -293,6 +307,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeechRealityKitExploration/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
